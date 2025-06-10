@@ -1,23 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import Promodoro from './Promodoro'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="bg-slate-700 h-screen flex flex-col justify-center items-center">
+        <h1 className='text-4xl text-white mb-6'>Promodoro App</h1>
+        <Promodoro />
     </div>
   );
 }
